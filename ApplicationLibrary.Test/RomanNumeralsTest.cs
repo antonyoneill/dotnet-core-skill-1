@@ -15,6 +15,8 @@ namespace ApplicationLibrary.Test
         [TestCase(6,"VI")]
         [TestCase(7,"VII")]
         [TestCase(8,"VIII")]
+        [TestCase(9,"IX")]
+        [TestCase(10, "X")]
         public void ReturnNumeral(int input, string expected)
         {
             RomanNumerals.NumberToNumeral(input).Should().Be(expected);
