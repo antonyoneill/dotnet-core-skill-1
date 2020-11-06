@@ -10,6 +10,10 @@ namespace ApplicationLibrary
         
         public static string NumberToNumeral(int number)
         {
+            if (number > 10)
+            {
+                return X + "".PadLeft(number - 10, I.ToCharArray()[0]);
+            }
             if (number == 10)
             {
                 return X;
