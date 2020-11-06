@@ -2,7 +2,7 @@
 
 namespace ApplicationLibrary
 {
-    public class RomanNumerals
+    public static class RomanNumerals
     {
         public static string NumberToNumeral(int number)
         {

@@ -5,7 +5,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>ApplicationLibraryTest</RootNamespace>
+    <RootNamespace>ApplicationLibrary.Test</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
