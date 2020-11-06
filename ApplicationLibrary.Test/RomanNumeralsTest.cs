@@ -6,6 +6,7 @@ namespace ApplicationLibrary.Test
     public class RomanNumeralsTest
     {
 
+        [TestCase(0,"")]
         [TestCase(1, "I")]
         [TestCase(2, "II")]
         [TestCase(3, "III")]
