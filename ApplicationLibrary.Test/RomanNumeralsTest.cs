@@ -6,22 +6,12 @@ namespace ApplicationLibrary.Test
     public class RomanNumeralsTest
     {
 
-        [Test]
-        public void ReturnNumeralForOne()
+        [TestCase(1, "I")]
+        [TestCase(2, "II")]
+        [TestCase(3, "III")]
+        public void ReturnNumeral(int input, string expected)
         {
-            RomanNumerals.NumberToNumeral(1).Should().Be("I");
-        }
-
-        [Test]
-        public void ReturnNumeralForTwo()
-        {
-            RomanNumerals.NumberToNumeral(2).Should().Be("II");
-        }
-
-        [Test]
-        public void ReturnNumeralForThree()
-        {
-            RomanNumerals.NumberToNumeral(3).Should().Be("III");
+            RomanNumerals.NumberToNumeral(input).Should().Be(expected);
         }
     }
 }
