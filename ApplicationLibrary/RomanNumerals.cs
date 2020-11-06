@@ -6,6 +6,10 @@ namespace ApplicationLibrary
     {
         public static string NumberToNumeral(int number)
         {
+            if (number > 5)
+            {
+                return "V" + "".PadLeft(number - 5, 'I');
+            }
             if (number == 5)
             {
                 return "V";
