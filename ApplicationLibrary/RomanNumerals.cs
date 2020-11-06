@@ -6,7 +6,7 @@ namespace ApplicationLibrary
     {
         public static string NumberToNumeral(int number)
         {
-            return "I";
+            return "".PadLeft(number, 'I');
         }
     }
 }
