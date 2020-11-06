@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLibrary", "ApplicationLibrary\ApplicationLibrary.csproj", "{48B18DF8-7C2F-4211-8856-A720B74E7833}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLibraryTest", "ApplicationLibraryTest\ApplicationLibraryTest.csproj", "{B46CBD16-799E-4D21-AF09-A6F64D07FEF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLibrary.Test", "ApplicationLibrary.Test\ApplicationLibrary.Test.csproj", "{B46CBD16-799E-4D21-AF09-A6F64D07FEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
